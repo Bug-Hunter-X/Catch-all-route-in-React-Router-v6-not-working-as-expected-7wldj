@@ -1,0 +1,1 @@
+This repository demonstrates a bug in React Router v6 where the catch-all route (`/*`) doesn't function correctly.  The issue arises when this route is placed after more specific routes. Even when a path matches a more specific route, the catch-all route still renders. The solution shows how to resolve this by restructuring the route order.
